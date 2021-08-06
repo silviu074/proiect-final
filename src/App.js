@@ -9,7 +9,7 @@ import {
 import { Home, About, Services, Promotion, Subscription } from "./pages";
 import Navbar from "./Components/Navbar/Navbar";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Navbar />
@@ -35,6 +35,6 @@ function App() {
       </main>
     </Router>
   );
-}
+};
 
 export default App;

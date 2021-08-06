@@ -45,3 +45,15 @@ html {
 ::placeholder {
   color: #b0b0b0;
 }
+
+.imghome {
+  width: 100%;
+  max-width: 1024px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 767px) {
+}

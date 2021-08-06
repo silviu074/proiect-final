@@ -20,4 +20,8 @@ i {
 .navbar-mainbg {
   background-color: #000000;
   padding: 0px;
+  right: 0;
+  width: 100%;
+
+  position: fixed;
 }
