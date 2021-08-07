@@ -9,6 +9,7 @@ import brasov from "./img/brasov.jpg";
 import galati from "./img/galati.jpg";
 import ploiesti from "./img/ploiesti.jpg";
 import oradea from "./img/oradea.jpg";
+import { NavLink } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -17,7 +18,7 @@ export const Home = () => {
         Lets explore Romania together!
       </h1>
       <h4 className="text-center" style={{ paddingTop: "3%" }}>
-        Here is a list of the most common tourist cities you can book:
+        Here is a list of the biggest cities you can visit:
       </h4>
       <h1 className="text-center" style={{ padding: "5% 0 0 0" }}>
         1. Bucharest
@@ -40,6 +41,17 @@ export const Home = () => {
         alt="Bucharest"
         style={{ padding: "1% 0 5% 0" }}
       />
+      <div className="btnContainer">
+        <NavLink className="nav-link" to="/flights" exact>
+          <button className="btn">Flights</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/housing" exact>
+          <button className="btn">Housing</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/promotion" exact>
+          <button className="btn">Special Offers</button>
+        </NavLink>
+      </div>
       <h1 className="text-center" style={{ padding: "5% 0 0 0" }}>
         2. Cluj-Napoca
       </h1>
@@ -65,6 +77,17 @@ export const Home = () => {
         alt="Cluj"
         style={{ padding: "1% 0 5% 0" }}
       />
+      <div className="btnContainer">
+        <NavLink className="nav-link" to="/flights" exact>
+          <button className="btn">Flights</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/housing" exact>
+          <button className="btn">Housing</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/promotion" exact>
+          <button className="btn">Special Offers</button>
+        </NavLink>
+      </div>
       <h1 className="text-center" style={{ padding: "5% 0 0 0" }}>
         3. Timișoara
       </h1>
@@ -83,6 +106,17 @@ export const Home = () => {
         alt="Timisoara"
         style={{ padding: "1% 0 5% 0" }}
       />
+      <div className="btnContainer">
+        <NavLink className="nav-link" to="/flights" exact>
+          <button className="btn">Flights</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/housing" exact>
+          <button className="btn">Housing</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/promotion" exact>
+          <button className="btn">Special Offers</button>
+        </NavLink>
+      </div>
       <h1 className="text-center" style={{ padding: "5% 0 0 0" }}>
         4. Iași
       </h1>
@@ -99,6 +133,17 @@ export const Home = () => {
         alt="Iasi"
         style={{ padding: "1% 0 5% 0" }}
       />
+      <div className="btnContainer">
+        <NavLink className="nav-link" to="/flights" exact>
+          <button className="btn">Flights</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/housing" exact>
+          <button className="btn">Housing</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/promotion" exact>
+          <button className="btn">Special Offers</button>
+        </NavLink>
+      </div>
       <h1 className="text-center" style={{ padding: "5% 0 0 0" }}>
         5. Constanța
       </h1>
@@ -117,6 +162,17 @@ export const Home = () => {
         alt="Constanta"
         style={{ padding: "1% 0 5% 0" }}
       />
+      <div className="btnContainer">
+        <NavLink className="nav-link" to="/flights" exact>
+          <button className="btn">Flights</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/housing" exact>
+          <button className="btn">Housing</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/promotion" exact>
+          <button className="btn">Special Offers</button>
+        </NavLink>
+      </div>
       <h1 className="text-center" style={{ padding: "5% 0 0 0" }}>
         6. Craiova
       </h1>
@@ -136,6 +192,17 @@ export const Home = () => {
         alt="Craiova"
         style={{ padding: "1% 0 5% 0" }}
       />
+      <div className="btnContainer">
+        <NavLink className="nav-link" to="/flights" exact>
+          <button className="btn">Flights</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/housing" exact>
+          <button className="btn">Housing</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/promotion" exact>
+          <button className="btn">Special Offers</button>
+        </NavLink>
+      </div>
       <h1 className="text-center" style={{ padding: "5% 0 0 0" }}>
         7. Brașov
       </h1>
@@ -151,6 +218,17 @@ export const Home = () => {
         alt="Brasov"
         style={{ padding: "1% 0 5% 0" }}
       />
+      <div className="btnContainer">
+        <NavLink className="nav-link" to="/flights" exact>
+          <button className="btn">Flights</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/housing" exact>
+          <button className="btn">Housing</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/promotion" exact>
+          <button className="btn">Special Offers</button>
+        </NavLink>
+      </div>
       <h1 className="text-center" style={{ padding: "5% 0 0 0" }}>
         8. Galați
       </h1>
@@ -174,6 +252,17 @@ export const Home = () => {
         alt="Galati"
         style={{ padding: "1% 0 5% 0" }}
       />
+      <div className="btnContainer">
+        <NavLink className="nav-link" to="/flights" exact>
+          <button className="btn">Flights</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/housing" exact>
+          <button className="btn">Housing</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/promotion" exact>
+          <button className="btn">Special Offers</button>
+        </NavLink>
+      </div>
       <h1 className="text-center" style={{ padding: "5% 0 0 0" }}>
         9. Ploiești
       </h1>
@@ -189,6 +278,17 @@ export const Home = () => {
         alt="Ploiesti"
         style={{ padding: "1% 0 5% 0" }}
       />
+      <div className="btnContainer">
+        <NavLink className="nav-link" to="/flights" exact>
+          <button className="btn">Flights</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/housing" exact>
+          <button className="btn">Housing</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/promotion" exact>
+          <button className="btn">Special Offers</button>
+        </NavLink>
+      </div>
       <h1 className="text-center" style={{ padding: "5% 0 0 0" }}>
         10. Oradea
       </h1>
@@ -205,6 +305,18 @@ export const Home = () => {
         alt="Oradea"
         style={{ padding: "1% 0 5% 0" }}
       />
+      <div className="btnContainer">
+        <NavLink className="nav-link" to="/flights" exact>
+          <button className="btn">Flights</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/housing" exact>
+          <button className="btn">Housing</button>
+        </NavLink>
+        <NavLink className="nav-link" to="/promotion" exact>
+          <button className="btn">Special Offers</button>
+        </NavLink>
+      </div>
+      <div style={{ padding: "0 0 5% 0" }}></div>
     </div>
   );
 };

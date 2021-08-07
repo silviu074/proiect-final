@@ -53,7 +53,68 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+
+.btn {
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "sans-serif";
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #191516;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+
+  background: black;
+  z-index: -1;
+  transition: 0.3s;
+  top: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn:hover::before {
+  height: 180%;
+}
+
+.btnContainer {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
 @media (max-width: 1024px) {
+  .btnContainer {
+    display: block;
+  }
+  .btn {
+    margin-bottom: 20px;
+    width: 500px;
+  }
 }
 @media (max-width: 767px) {
+  .btnContainer {
+    display: block;
+  }
+  .btn {
+    margin-bottom: 20px;
+    width: 360px;
+  }
 }

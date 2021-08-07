@@ -43,8 +43,18 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item active">
+            <NavLink className="nav-link" to="/flights" exact>
+              <i className="fas fa-tachometer-alt"></i>Flights
+            </NavLink>
+          </li>
+          <li className="nav-item active">
+            <NavLink className="nav-link" to="/housing" exact>
+              <i className="fas fa-tachometer-alt"></i>Housing
+            </NavLink>
+          </li>
+          <li className="nav-item active">
             <NavLink className="nav-link" to="/promotion" exact>
-              <i className="fas fa-tachometer-alt"></i>Promotion
+              <i className="fas fa-tachometer-alt"></i>Special Offers
             </NavLink>
           </li>
           <li className="nav-item active">
