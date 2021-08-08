@@ -18,7 +18,7 @@ const Navbar = () => {
         aria-label="Toggle navigation"
         style={{ color: "white" }}
       >
-        <i className="fas fa-bars text-white"></i>
+        <i className="fas fa-bars text-white">In</i>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
@@ -29,37 +29,37 @@ const Navbar = () => {
 
           <li className="nav-item active">
             <NavLink className="nav-link" to="/" exact>
-              <i className="fas fa-tachometer-alt"></i>Home
+              Home
             </NavLink>
           </li>
           <li className="nav-item active">
             <NavLink className="nav-link" to="/about" exact>
-              <i className="fas fa-address-book"></i>About
+              About
             </NavLink>
           </li>
           <li className="nav-item active">
             <NavLink className="nav-link" to="/services" exact>
-              <i className="fas fa-tachometer-alt"></i>Services
+              Services
             </NavLink>
           </li>
           <li className="nav-item active">
             <NavLink className="nav-link" to="/flights" exact>
-              <i className="fas fa-tachometer-alt"></i>Flights
+              Flights
             </NavLink>
           </li>
           <li className="nav-item active">
             <NavLink className="nav-link" to="/housing" exact>
-              <i className="fas fa-tachometer-alt"></i>Housing
+              Housing
             </NavLink>
           </li>
           <li className="nav-item active">
             <NavLink className="nav-link" to="/promotion" exact>
-              <i className="fas fa-tachometer-alt"></i>Special Offers
+              Special Offers
             </NavLink>
           </li>
           <li className="nav-item active">
             <NavLink className="nav-link" to="/subscription" exact>
-              <i className="fas fa-tachometer-alt"></i>Subscribe
+              Subscribe
             </NavLink>
           </li>
         </ul>
