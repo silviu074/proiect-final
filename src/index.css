@@ -100,7 +100,45 @@ html {
 
   justify-content: center;
 }
-@media (max-width: 1024px) {
+
+.imghome {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 5px;
+}
+
+.col-half {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.htext {
+  margin: 10% 0 20% 0;
+  text-align: center;
+  flex-shrink: 0;
+  font-size: 1em;
+}
+
+.hdesktop {
+  display: block;
+}
+.htablet {
+  display: none;
+}
+.hmobile {
+  display: none;
+}
+
+@media (max-width: 1024px) and (min-width: 767px) {
   .btnContainer {
     display: block;
   }
@@ -108,7 +146,20 @@ html {
     margin-bottom: 20px;
     width: 500px;
   }
+  @media (min-width: 768px) {
+    .hdesktop {
+      display: none;
+    }
+    .htablet {
+      display: block;
+    }
+
+    .hmobile {
+      display: none;
+    }
+  }
 }
+
 @media (max-width: 767px) {
   .btnContainer {
     display: block;
@@ -116,5 +167,16 @@ html {
   .btn {
     margin-bottom: 20px;
     width: 360px;
+  }
+  @media (max-width: 1024px) {
+    .hdesktop {
+      display: none;
+    }
+    .htablet {
+      display: none;
+    }
+    .hmobile {
+      display: block;
+    }
   }
 }
