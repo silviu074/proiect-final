@@ -1,10 +1,48 @@
 import React from "react";
+
 export const Services = () => {
   return (
     <div className="container">
       <div className="text-center">
+        <h1 style={{ padding: "15% 0 0 0" }}>Main Services</h1>
+        <h4 style={{ padding: "5% 0 5% 0" }}>
+          Caulculate Flight cost based on your distance:
+        </h4>
+        <div style={{ padding: "1% 0 1% 0" }}>
+          <input
+            id="kmFlight"
+            placeholder="Distance from you (km)"
+            type="number"
+          />
+          <button id="kmfc">Calculate </button>
+        </div>
+        <h4 style={{ padding: "5% 0 5% 0" }}>
+          Caulculate housing discount based on the number of guests:
+        </h4>
+        <div style={{ padding: "1% 0 1% 0" }}>
+          <input
+            id="AproxPrice"
+            placeholder="Price of stay in $"
+            type="number"
+          />
+          <input id="NrGuests" placeholder="Number of guests" type="number" />
+          <button id="kmfc">Calculate </button>
+        </div>
+        <h4 style={{ padding: "5% 0 5% 0" }}>Enter your totals so far</h4>
+        <div style={{ padding: "1% 0 1% 0" }}>
+          <input id="TVA" placeholder="Price of Flight in $" type="number" />
+          <input id="TVA" placeholder="Price of Housing in $" type="number" />
+          <button id="kmfc">Total </button>
+        </div>
+        <h4 style={{ padding: "5% 0 5% 0" }}>How much is Romanian TAX?</h4>
+
+        <div style={{ padding: "1% 0 1% 0" }}>
+          <input id="TVA" placeholder="Total price in $" type="number" />
+          <button id="kmfc">Calculate total </button>
+        </div>
+
         <h1 style={{ padding: "15% 0 5% 0" }}>
-          What kind services do we offer?
+          What other services do we offer?
         </h1>
         <h4>Flights Reservations 📑</h4>
         <p style={{ padding: "1% 0 3% 0" }}>

@@ -60,7 +60,7 @@ export const SpecialOffers = () => {
         You may also want to check other offers here:
       </h4>
       <div className="btnContainer">
-        <NavLink className="nav-link" to="/services" exact>
+        <NavLink className="nav-link" to="/" exact>
           <button className="btn">Home</button>
         </NavLink>
         <NavLink className="nav-link" to="/flights" exact>
