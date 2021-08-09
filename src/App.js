@@ -6,7 +6,14 @@ import {
   Switch,
 } from "react-router-dom";
 
-import { Home, About, Services, Promotion, Housing, Flights } from "./pages";
+import {
+  Home,
+  About,
+  Services,
+  SpecialOffers,
+  Housing,
+  Flights,
+} from "./pages";
 import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
@@ -30,8 +37,8 @@ const App = () => {
           <Route path="/housing" exact>
             <Housing />
           </Route>
-          <Route path="/promotion" exact>
-            <Promotion />
+          <Route path="/specialoffers" exact>
+            <SpecialOffers />
           </Route>
 
           <Redirect to="/" />

@@ -53,7 +53,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item active">
-            <NavLink className="nav-link" to="/promotion" exact>
+            <NavLink className="nav-link" to="/specialoffers" exact>
               Special Offers
             </NavLink>
           </li>
