@@ -6,15 +6,7 @@ import {
   Switch,
 } from "react-router-dom";
 
-import {
-  Home,
-  About,
-  Services,
-  Promotion,
-  Subscription,
-  Housing,
-  Flights,
-} from "./pages";
+import { Home, About, Services, Promotion, Housing, Flights } from "./pages";
 import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
@@ -41,9 +33,7 @@ const App = () => {
           <Route path="/promotion" exact>
             <Promotion />
           </Route>
-          <Route path="/subscription" exact>
-            <Subscription />
-          </Route>
+
           <Redirect to="/" />
         </Switch>
       </main>

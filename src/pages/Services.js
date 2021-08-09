@@ -3,7 +3,7 @@ export const Services = () => {
   return (
     <div className="container">
       <div className="text-center">
-        <h1 style={{ padding: "10% 0 5% 0" }}>
+        <h1 style={{ padding: "15% 0 5% 0" }}>
           What kind services do we offer?
         </h1>
         <h4>Flights Reservations 📑</h4>
@@ -34,7 +34,7 @@ export const Services = () => {
           We provide a 24 hour, 7 day a week emergency service to all customers.
         </p>
         <h4>Accounting Services 💹</h4>
-        <p style={{ padding: "1% 0 5% 0" }}>
+        <p style={{ padding: "1% 0 15% 0" }}>
           We issue an invoice to the customer on receipt of a customer’s
           instruction and post the following day. Car hire, tours, hotel, etc.,
           are billed on receipt of the supplier’s invoice. Statements reflecting

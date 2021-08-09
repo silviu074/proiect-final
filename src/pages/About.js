@@ -29,7 +29,7 @@ export const About = () => {
           ultimately provide more content to my readers.
         </h5>
       </div>
-      <div style={{ padding: "0 0 5% 0" }}></div>
+      <div style={{ padding: "0 0 15% 0" }}></div>
     </div>
   );
 };

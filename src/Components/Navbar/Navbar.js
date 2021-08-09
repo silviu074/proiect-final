@@ -18,7 +18,7 @@ const Navbar = () => {
         aria-label="Toggle navigation"
         style={{ color: "white" }}
       >
-        <i className="fas fa-bars text-white">In</i>
+        <i className="fas fa-bars text-white"></i>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
@@ -55,11 +55,6 @@ const Navbar = () => {
           <li className="nav-item active">
             <NavLink className="nav-link" to="/promotion" exact>
               Special Offers
-            </NavLink>
-          </li>
-          <li className="nav-item active">
-            <NavLink className="nav-link" to="/subscription" exact>
-              Subscribe
             </NavLink>
           </li>
         </ul>

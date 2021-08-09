@@ -4,4 +4,3 @@ export { Services } from "./Services";
 export { Flights } from "./Flights";
 export { Housing } from "./Housing";
 export { Promotion } from "./Promotion";
-export { Subscription } from "./Subscription";
