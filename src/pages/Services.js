@@ -1,6 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
+import { calculator } from "./Calculator";
 
 export const Services = () => {
+  const [taxa, setTaxa] = useState("");
+  const [distance, setDistance] = useState("");
+  const [flight, setFlight] = useState("");
+  const [housing, setHousing] = useState("");
+  const [price, setPrice] = useState("");
+  const [guests, setGuests] = useState("");
+
+  const basicClickHandlerTVA = () => {
+    alert(
+      " If you have to pay " +
+        taxa +
+        " $, the TVA is " +
+        calculator.tva(taxa) +
+        " $"
+    );
+  };
+  const basicClickHandlerSum = () => {
+    alert(
+      "Your total amount to pay is " +
+        calculator.flightHousing(parseInt(flight), parseInt(housing)) +
+        " $"
+    );
+  };
+  const basicClickHandlerDistance = () => {
+    alert(
+      " If you have to travel " +
+        distance +
+        " km, then the aproximative amount you will have to pay is " +
+        calculator.flightDistance(parseInt(distance)) +
+        " $"
+    );
+  };
+  const basicClickHandlerGuests = () => {
+    alert(
+      "Your total price with the discount is " +
+        calculator.guestDiscount(parseInt(price), parseInt(guests)) +
+        " $"
+    );
+  };
+
+  // ...............................
   return (
     <div className="container">
       <div className="text-center">
@@ -13,8 +55,12 @@ export const Services = () => {
             id="kmFlight"
             placeholder="Distance from you (km)"
             type="number"
+            value={distance}
+            onChange={(d) => setDistance(d.target.value)}
           />
-          <button id="kmfc">Calculate </button>
+          <button id="kmfc" onClick={basicClickHandlerDistance}>
+            Calculate{" "}
+          </button>
         </div>
         <h4 style={{ padding: "5% 0 5% 0" }}>
           Caulculate housing discount based on the number of guests:
@@ -24,21 +70,53 @@ export const Services = () => {
             id="AproxPrice"
             placeholder="Price of stay in $"
             type="number"
+            value={price}
+            onChange={(p) => setPrice(p.target.value)}
           />
-          <input id="NrGuests" placeholder="Number of guests" type="number" />
-          <button id="kmfc">Calculate </button>
+          <input
+            id="NrGuests"
+            placeholder="Number of guests"
+            type="number"
+            value={guests}
+            onChange={(g) => setGuests(g.target.value)}
+          />
+          <button id="kmfc" onClick={basicClickHandlerGuests}>
+            Calculate{" "}
+          </button>
         </div>
         <h4 style={{ padding: "5% 0 5% 0" }}>Enter your totals so far</h4>
         <div style={{ padding: "1% 0 1% 0" }}>
-          <input id="TVA" placeholder="Price of Flight in $" type="number" />
-          <input id="TVA" placeholder="Price of Housing in $" type="number" />
-          <button id="kmfc">Total </button>
+          <input
+            id="TVA"
+            placeholder="Price of Flight in $"
+            type="number"
+            value={flight}
+            onChange={(f) => setFlight(f.target.value)}
+          />
+          <input
+            id="TVA"
+            placeholder="Price of Housing in $"
+            type="number"
+            value={housing}
+            onChange={(h) => setHousing(h.target.value)}
+          />
+          <button id="kmfc" onClick={basicClickHandlerSum}>
+            Total{" "}
+          </button>
         </div>
         <h4 style={{ padding: "5% 0 5% 0" }}>How much is Romanian TAX?</h4>
 
         <div style={{ padding: "1% 0 1% 0" }}>
-          <input id="TVA" placeholder="Total price in $" type="number" />
-          <button id="kmfc">Calculate total </button>
+          <input
+            id="taxa"
+            placeholder="Total price in $"
+            type="number"
+            value={taxa}
+            onChange={(t) => setTaxa(t.target.value)}
+          />
+          <button id="kmfc" onClick={basicClickHandlerTVA}>
+            Calculate TVA{" "}
+          </button>
         </div>
 
         <h1 style={{ padding: "15% 0 5% 0" }}>

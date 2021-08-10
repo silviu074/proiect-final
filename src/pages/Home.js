@@ -48,7 +48,7 @@ export const Home = () => {
         <NavLink className="nav-link" to="/housing" exact>
           <button className="btn">Housing</button>
         </NavLink>
-        <NavLink className="nav-link" to="/promotion" exact>
+        <NavLink className="nav-link" to="/specialoffers" exact>
           <button className="btn">Special Offers</button>
         </NavLink>
       </div>
@@ -84,7 +84,7 @@ export const Home = () => {
         <NavLink className="nav-link" to="/housing" exact>
           <button className="btn">Housing</button>
         </NavLink>
-        <NavLink className="nav-link" to="/promotion" exact>
+        <NavLink className="nav-link" to="/specialoffers" exact>
           <button className="btn">Special Offers</button>
         </NavLink>
       </div>
@@ -113,7 +113,7 @@ export const Home = () => {
         <NavLink className="nav-link" to="/housing" exact>
           <button className="btn">Housing</button>
         </NavLink>
-        <NavLink className="nav-link" to="/promotion" exact>
+        <NavLink className="nav-link" to="/specialoffers" exact>
           <button className="btn">Special Offers</button>
         </NavLink>
       </div>
@@ -140,7 +140,7 @@ export const Home = () => {
         <NavLink className="nav-link" to="/housing" exact>
           <button className="btn">Housing</button>
         </NavLink>
-        <NavLink className="nav-link" to="/promotion" exact>
+        <NavLink className="nav-link" to="/specialoffers" exact>
           <button className="btn">Special Offers</button>
         </NavLink>
       </div>
@@ -169,7 +169,7 @@ export const Home = () => {
         <NavLink className="nav-link" to="/housing" exact>
           <button className="btn">Housing</button>
         </NavLink>
-        <NavLink className="nav-link" to="/promotion" exact>
+        <NavLink className="nav-link" to="/specialoffers" exact>
           <button className="btn">Special Offers</button>
         </NavLink>
       </div>
@@ -199,7 +199,7 @@ export const Home = () => {
         <NavLink className="nav-link" to="/housing" exact>
           <button className="btn">Housing</button>
         </NavLink>
-        <NavLink className="nav-link" to="/promotion" exact>
+        <NavLink className="nav-link" to="/specialoffers" exact>
           <button className="btn">Special Offers</button>
         </NavLink>
       </div>
@@ -225,7 +225,7 @@ export const Home = () => {
         <NavLink className="nav-link" to="/housing" exact>
           <button className="btn">Housing</button>
         </NavLink>
-        <NavLink className="nav-link" to="/promotion" exact>
+        <NavLink className="nav-link" to="/specialoffers" exact>
           <button className="btn">Special Offers</button>
         </NavLink>
       </div>
@@ -259,7 +259,7 @@ export const Home = () => {
         <NavLink className="nav-link" to="/housing" exact>
           <button className="btn">Housing</button>
         </NavLink>
-        <NavLink className="nav-link" to="/promotion" exact>
+        <NavLink className="nav-link" to="/specialoffers" exact>
           <button className="btn">Special Offers</button>
         </NavLink>
       </div>
@@ -285,7 +285,7 @@ export const Home = () => {
         <NavLink className="nav-link" to="/housing" exact>
           <button className="btn">Housing</button>
         </NavLink>
-        <NavLink className="nav-link" to="/promotion" exact>
+        <NavLink className="nav-link" to="/specialoffers" exact>
           <button className="btn">Special Offers</button>
         </NavLink>
       </div>
@@ -312,7 +312,7 @@ export const Home = () => {
         <NavLink className="nav-link" to="/housing" exact>
           <button className="btn">Housing</button>
         </NavLink>
-        <NavLink className="nav-link" to="/promotion" exact>
+        <NavLink className="nav-link" to="/specialoffers" exact>
           <button className="btn">Special Offers</button>
         </NavLink>
       </div>

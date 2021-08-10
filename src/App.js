@@ -13,6 +13,7 @@ import {
   SpecialOffers,
   Housing,
   Flights,
+  // Calculator,
 } from "./pages";
 import Navbar from "./Components/Navbar/Navbar";
 
