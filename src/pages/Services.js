@@ -58,7 +58,11 @@ export const Services = () => {
             value={distance}
             onChange={(d) => setDistance(d.target.value)}
           />
-          <button id="kmfc" onClick={basicClickHandlerDistance}>
+          <button
+            id="kmfc"
+            onClick={basicClickHandlerDistance}
+            className="btn1"
+          >
             Calculate{" "}
           </button>
         </div>
@@ -80,7 +84,7 @@ export const Services = () => {
             value={guests}
             onChange={(g) => setGuests(g.target.value)}
           />
-          <button id="kmfc" onClick={basicClickHandlerGuests}>
+          <button id="kmfc" onClick={basicClickHandlerGuests} className="btn1">
             Calculate{" "}
           </button>
         </div>
@@ -100,7 +104,7 @@ export const Services = () => {
             value={housing}
             onChange={(h) => setHousing(h.target.value)}
           />
-          <button id="kmfc" onClick={basicClickHandlerSum}>
+          <button id="kmfc" onClick={basicClickHandlerSum} className="btn1">
             Total{" "}
           </button>
         </div>
@@ -114,7 +118,7 @@ export const Services = () => {
             value={taxa}
             onChange={(t) => setTaxa(t.target.value)}
           />
-          <button id="kmfc" onClick={basicClickHandlerTVA}>
+          <button id="kmfc" onClick={basicClickHandlerTVA} className="btn1">
             Calculate TVA{" "}
           </button>
         </div>

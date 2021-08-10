@@ -200,6 +200,13 @@ html {
   color: #24262b;
   background-color: #ffffff;
 }
+.btn1 {
+  background: #000;
+  color: #fff;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 @media (max-width: 1024px) and (min-width: 767px) {
   .btnContainer {

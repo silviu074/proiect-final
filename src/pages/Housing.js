@@ -58,8 +58,8 @@ export const Housing = () => {
         rectangular courtyard between Strada Lipscani and Strada Blanari, home
         to an array of art and antiques shops.
       </p>
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Bucharest Center</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -97,7 +97,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={buc1} alt="Bucharest Central Area" />
         </div>
       </div>
@@ -146,7 +146,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={buc2} alt="Bucharest Suburbs Area" />
         </div>
       </div>
@@ -205,7 +205,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={tim1} alt="Timisoara Suburbs Area" />
         </div>
       </div>
@@ -215,8 +215,8 @@ export const Housing = () => {
       </div>
       {/* --------------------------------------------------- */}
 
-      <div class="row" style={{ padding: "15% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "15% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Timisoara Suburbs</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -254,7 +254,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={tim2} alt="Timisoara Suburbs Area" />
         </div>
       </div>
@@ -273,8 +273,8 @@ export const Housing = () => {
         Timis and Prahova valleys. The city is placed in the inner Carpathian
         curve, at the foot of Tampa Mountain.
       </p>
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Brasov Center</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -312,7 +312,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={bra1} alt="Brasov Central Area" />
         </div>
       </div>
@@ -322,8 +322,8 @@ export const Housing = () => {
       </div>
       {/* --------------------------------------------------- */}
 
-      <div class="row" style={{ padding: "15% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "15% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Brasov Suburbs</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -361,7 +361,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={bra2} alt="Brasov Suburbs Area" />
         </div>
       </div>
@@ -382,8 +382,8 @@ export const Housing = () => {
         Republic is the utmost principle entire city, for which we have a duty
         to die, to which we must offer and devote all we have.{" "}
       </p>
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Cluj-Napoca Center</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -421,7 +421,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={cluj1} alt="Cluj Central Area" />
         </div>
       </div>
@@ -431,8 +431,8 @@ export const Housing = () => {
       </div>
       {/* --------------------------------------------------- */}
 
-      <div class="row" style={{ padding: "15% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "15% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Cluj-Napoca Suburbs</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -470,7 +470,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={cluj2} alt="Cluj-Napoca Suburbs Area" />
         </div>
       </div>
@@ -488,8 +488,8 @@ export const Housing = () => {
         Constanta was visited by Jason and the Argonauts after finding the
         Golden Fleece.
       </p>
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Constanta Center</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -527,7 +527,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={con1} alt="Constanta Central Area" />
         </div>
       </div>
@@ -537,8 +537,8 @@ export const Housing = () => {
       </div>
       {/* --------------------------------------------------- */}
 
-      <div class="row" style={{ padding: "15% 0 3% 0" }}>
-        <div class="col-half">
+      <div clasNames="row" style={{ padding: "15% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Constanta Suburbs</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -576,7 +576,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={con2} alt="Constanta Suburbs Area" />
         </div>
       </div>
@@ -597,8 +597,8 @@ export const Housing = () => {
         architectural monument is the St. Dimitru church, rebuilt several times
         but still a likeness of the original erected in 1652.
       </p>
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Craiova Center</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -646,8 +646,8 @@ export const Housing = () => {
       </div>
       {/* --------------------------------------------------- */}
 
-      <div class="row" style={{ padding: "15% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "15% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Craiova Suburbs</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -685,7 +685,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={cra2} alt="Craiova Suburbs Area" />
         </div>
       </div>
@@ -705,8 +705,8 @@ export const Housing = () => {
         establishing the first Romanian university. Today, Iasi is home to five
         universities.
       </p>
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Iasi Center</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -744,7 +744,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={iasi1} alt="Iasi Central Area" />
         </div>
       </div>
@@ -754,8 +754,8 @@ export const Housing = () => {
       </div>
       {/* --------------------------------------------------- */}
 
-      <div class="row" style={{ padding: "15% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "15% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Iasi Suburbs</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -793,7 +793,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={iasi2} alt="Iasi Suburbs Area" />
         </div>
       </div>
@@ -822,8 +822,8 @@ export const Housing = () => {
         preserved at Györ, which contains the skull of King Ladislaus, and which
         is a masterpiece of the Hungarian goldsmith's art.
       </p>
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Oradea Center</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -861,7 +861,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={ora1} alt="Oradea Central Area" />
         </div>
       </div>
@@ -871,8 +871,8 @@ export const Housing = () => {
       </div>
       {/* --------------------------------------------------- */}
 
-      <div class="row" style={{ padding: "15% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "15% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Oradea Suburbs</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -910,7 +910,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={ora2} alt="Oradea Suburbs Area" />
         </div>
       </div>
@@ -933,8 +933,8 @@ export const Housing = () => {
         is the country’s primary petroleum centre, having refineries, storage
         tanks, oil-field equipment works, and a distillery.{" "}
       </p>
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Ploiesti Center</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -972,7 +972,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={plo1} alt="Ploiesti Central Area" />
         </div>
       </div>
@@ -982,8 +982,8 @@ export const Housing = () => {
       </div>
       {/* --------------------------------------------------- */}
 
-      <div class="row" style={{ padding: "15% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "15% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Ploiesti Suburbs</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -1021,7 +1021,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={plo2} alt="Ploiesti Suburbs Area" />
         </div>
       </div>
@@ -1040,8 +1040,8 @@ export const Housing = () => {
         area in antiquity, or from the Galitia region, another alternative being
         the Cuman language called Gala(t), from the Arabian kalhat (fortress).
       </p>
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Galati Center</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -1079,7 +1079,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={gal1} alt="Galati Central Area" />
         </div>
       </div>
@@ -1089,8 +1089,8 @@ export const Housing = () => {
       </div>
       {/* --------------------------------------------------- */}
 
-      <div class="row" style={{ padding: "15% 0 10% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "15% 0 10% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Galati Suburbs</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -1128,7 +1128,7 @@ export const Housing = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={gal2} alt="Galati Suburbs Area" />
         </div>
       </div>

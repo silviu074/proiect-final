@@ -22,8 +22,8 @@ export const Flights = () => {
         slowly being refashioned into an upscale neighborhood.
       </p>
 
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Bucharest</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -65,7 +65,7 @@ export const Flights = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={fbuc} alt="Bucharest Airport" />
         </div>
       </div>
@@ -86,8 +86,8 @@ export const Flights = () => {
         curve, at the foot of Tampa Mountain.
       </p>
 
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Brasov</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -129,7 +129,7 @@ export const Flights = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={fbra} alt="Brasov Airport" />
         </div>
       </div>
@@ -151,8 +151,8 @@ export const Flights = () => {
         name of the Timis river.
       </p>
 
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Timisoara</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -194,7 +194,7 @@ export const Flights = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={ftim} alt="Timisoara Airport" />
         </div>
       </div>
@@ -217,8 +217,8 @@ export const Flights = () => {
         to die, to which we must offer and devote all we have.
       </p>
 
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Cluj-Napoca</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -260,7 +260,7 @@ export const Flights = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={fcluj} alt="Cluj-Napoca Airport" />
         </div>
       </div>
@@ -323,7 +323,7 @@ export const Flights = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={fcon} alt="Constanta Airport" />
         </div>
       </div>
@@ -346,8 +346,8 @@ export const Flights = () => {
         but still a likeness of the original erected in 1652.
       </p>
 
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Craiova</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -411,8 +411,8 @@ export const Flights = () => {
         universities.
       </p>
 
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Iasi</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
@@ -454,7 +454,7 @@ export const Flights = () => {
           </div>
         </div>
 
-        <div class="col-half">
+        <div className="col-half">
           <img className="imghome" src={fiasi} alt="Iasi Airport" />
         </div>
       </div>
@@ -485,8 +485,8 @@ export const Flights = () => {
         is a masterpiece of the Hungarian goldsmith's art.
       </p>
 
-      <div class="row" style={{ padding: "3% 0 3% 0" }}>
-        <div class="col-half">
+      <div className="row" style={{ padding: "3% 0 3% 0" }}>
+        <div className="col-half">
           <div className="htext">
             <h2>Oradea</h2>
             <div className="hdesktop" style={{ padding: "2% 0 2% 0" }}>
